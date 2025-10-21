@@ -1,0 +1,13 @@
+import math
+
+n = int(input("Введите число: "))
+
+if n < 2:
+    print("Непростое")
+else:
+    for i in range(2, int(math.sqrt(n)) + 1):
+        if n % i == 0:
+            print("Непростое")
+            break
+    else:
+        print("Простое")
