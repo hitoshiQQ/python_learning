@@ -39,6 +39,5 @@ if remainder != 0:
             result += 3 * (remainder - 1) + 5
     else:
         result += 8
-        
 # Выводим результат
 print(int(result))

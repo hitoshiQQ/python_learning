@@ -1,7 +1,9 @@
 from math import gcd
 
+
 def lcm(a, b):
     return a // gcd(a, b) * b
+
 
 # Чтение входных данных
 k, n, m, d = map(int, input().split())

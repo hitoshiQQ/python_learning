@@ -12,6 +12,7 @@ def is_prime(num):
         i += 2
     return True
 
+
 # Основная программа
 N, K = map(int, input().split())
 
